@@ -104,56 +104,28 @@ num_4 = int(input("Ingrese el tercer número: "))
 
 if num_1 < num_2:
     menor = num_1
-    ind1 = num_1
-    
+        
 else:
     menor = num_2
-    ind1 = num_2
-    
-if menor < num_3:
-    menor = menor
-    ind1 = ind1
-    
-else:
+   
+if menor > num_3:
     menor = num_3
-    ind1 = num_3
     
-if menor < num_4:
-    menor = menor
-    ind1 = ind1
-    
-else:
+if menor > num_4:  
     menor = num_4
-    ind1 = num_4
-    
     
 if num_1 > num_2:
     mayor = num_1
-    ind4 = num_1
-    
+        
 else:
     mayor = num_2
-    ind4 = num_2
+       
+if mayor < num_3:
+    mayor = num_3    
     
-if mayor > num_3:
-    mayor = mayor
-    ind4 = ind1
-    
-else:
-    mayor = num_3
-    ind4 = num_3
-    
-if mayor > num_4:
-    mayor = mayor
-    ind4 = ind1
-    
-else:
+if mayor < num_4:
     mayor = num_4
-    ind4 = num_4
     
-
-
-
 
 num_a = -1
 num_b = -1
@@ -256,3 +228,7 @@ if letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra == "u":
     print("Es vocal")
 else:
     print("Es consonante")
+    
+    
+    
+    
